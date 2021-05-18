@@ -21,7 +21,7 @@
         <button class="btn btn-success" type ="submit">Войти</button>
     </form>
      <?php else:?>
-         <p><?php $_COOKIE['patients'] ?>.Чтобы выйти нажмите  <a href="exit.php">здесь</a> </p>
+         <p>Привет <?= $_COOKIE['patients'] ?>.Чтобы выйти нажмите  <a href="exit.php">здесь</a> </p>
      <?php endif; ?>
 </div>
 </body>
