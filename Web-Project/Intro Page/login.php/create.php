@@ -27,5 +27,5 @@ $mysql = new mysqli('localhost','root','','online_clinic');
 $mysql->query("INSERT INTO `patients` (`name`, `date`, `email`, `login`, `password`) VALUES ('$name', '$date', '$email', '$login', '$password')");
 
 $mysql->close();
-header('location: /' );
+header('Location: /');
 ?>
