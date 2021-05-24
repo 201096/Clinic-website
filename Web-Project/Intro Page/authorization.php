@@ -18,10 +18,12 @@
 
         <input type="password" class="form-control" name="password" id="password" placeholder="Введите пароль"><br>
 
-        <button class="btn btn-success" type ="submit">Войти</button>
+        <button class="btn btn-success" type ="submit">Войти</button><br>
+
+        <a href="registration.html">Don't have an account?</a>
     </form>
      <?php else:?>
-         <p>Привет <?= $_COOKIE['patients'] ?>.Чтобы выйти нажмите  <a href="exit.php">здесь</a> </p>
+         <p>Привет <?= $_COOKIE['patients'] ?>.Чтобы выйти нажмите <a href="exit.php">здесь</a> </p>
      <?php endif; ?>
 </div>
 </body>
