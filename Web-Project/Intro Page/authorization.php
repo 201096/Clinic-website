@@ -10,8 +10,8 @@
 <body>
 <div class="container mt-4">
     <?php
-     if ($_COOKIE['patients'] == ''):
-      ?>
+    if (!(isset($_COOKIE['patients']))) :
+        ?>
     <h1>Авторизация</h1>
     <form action="login.php/auth.php" method="post">
         <input type="text" class="form-control" name="login" id="login" placeholder="Введите логин"><br>
