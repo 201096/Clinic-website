@@ -24,7 +24,7 @@
 
                         <input type="password" class="form-control" name="password" id="password" placeholder="Введите пароль"><br>
 
-                        <input type="submit" value="Войти" class="main__btn"><br>
+                        <button type ="submit" class="main__btn">Войти</button><br>
 
                         <a href="registration.html">Don't have an account?</a>
                     </form>

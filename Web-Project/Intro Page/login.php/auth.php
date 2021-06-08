@@ -17,5 +17,5 @@
     setcookie('patients', $user['name'], time() + 3600, "/");
 
     $mysql->close();
-    header('Location: http://localhost:63342/Clinic-website/Web-Project%20(4)/Web-Project/Intro%20Page/Intro.html?_ijt=ijuituk2kpmper39p3f2blonel#featured-services');
+    header('Location: http://localhost:63342/Clinic-website/Web-Project%20(4)/Web-Project/Intro%20Page/Intro.html?_ijt=trd1184t0fjqro2c2f5hqp803v');
 ?>
