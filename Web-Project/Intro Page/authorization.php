@@ -14,24 +14,23 @@
     <div class="container">
         <div class="main__content">
             <div class="main__form">
-                <form action="#">
-                    <?php
-                    if (!(isset($_COOKIE['patients']))) :
-                        ?>
-                        <form action="login.php/auth.php" method="post">
-                            <p class="main__title">Авторизация</p><br>
-                            <input type="text" class="form-control" name="login" id="login" placeholder="Введите логин"><br>
+                <?php
+                if (!(isset($_COOKIE['patients']))) :
+                    ?>
+                    <form action="login.php/auth.php" method="post">
+                        <p class="main__title">Авторизация</p><br>
 
-                            <input type="password" class="form-control" name="password" id="password" placeholder="Введите пароль"><br>
+                        <input type="text" class="form-control" name="login" id="login" placeholder="Введите логин"><br>
 
-                            <input type="submit" value="Войти" class="main__btn"><br>
+                        <input type="password" class="form-control" name="password" id="password" placeholder="Введите пароль"><br>
 
-                            <a href="registration.html">Don't have an account?</a>
-                        </form>
-                    <?php else:?>
-                        <p>Привет <?= $_COOKIE['patients'] ?>.Чтобы выйти нажмите <a href="exit.php">здесь</a> </p>
-                    <?php endif; ?>
-                </form>
+                        <input type="submit" value="Войти" class="main__btn"><br>
+
+                        <a href="registration.html">Don't have an account?</a>
+                    </form>
+                <?php else:?>
+                    <p>Привет <?= $_COOKIE['patients'] ?>.Чтобы выйти нажмите <a href="exit.php">здесь</a> </p>
+                <?php endif; ?>
             </div>
         </div>
     </div>
