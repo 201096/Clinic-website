@@ -1,30 +1,41 @@
 <!DOCTYPE html>
 <html lang = "ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Авторизация</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/authorization.css"
 </head>
+
 <body>
-<div class="container mt-4">
-    <?php
-    if (!(isset($_COOKIE['patients']))) :
-        ?>
-    <h1>Авторизация</h1>
-    <form action="login.php/auth.php" method="post">
-        <input type="text" class="form-control" name="login" id="login" placeholder="Введите логин"><br>
+<div class="main">
+    <div class="container">
+        <div class="main__content">
+            <div class="main__form">
+                <form action="#">
+                    <?php
+                    if (!(isset($_COOKIE['patients']))) :
+                        ?>
+                        <form action="login.php/auth.php" method="post">
+                            <p class="main__title">Авторизация</p>
+                            <input type="text" class="form-control" name="login" id="login" placeholder="Введите логин"><br>
 
-        <input type="password" class="form-control" name="password" id="password" placeholder="Введите пароль"><br>
+                            <input type="password" class="form-control" name="password" id="password" placeholder="Введите пароль"><br>
 
-        <button class="btn btn-success" type ="submit">Войти</button><br>
+                            <input type="submit" value="Войти" class="main__btn">
 
-        <a href="registration.html">Don't have an account?</a>
-    </form>
-     <?php else:?>
-         <p>Привет <?= $_COOKIE['patients'] ?>.Чтобы выйти нажмите <a href="exit.php">здесь</a> </p>
-     <?php endif; ?>
+                            <a href="registration.html">Don't have an account?</a>
+                        </form>
+                    <?php else:?>
+                        <p>Привет <?= $_COOKIE['patients'] ?>.Чтобы выйти нажмите <a href="exit.php">здесь</a> </p>
+                    <?php endif; ?>
+                </form>
+            </div>
+        </div>
+    </div>
 </div>
+
 </body>
 </html>
