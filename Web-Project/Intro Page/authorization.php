@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang = "ru">
+<html lang = "en">
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Авторизация</title>
     <link rel="stylesheet" href="css/authorization.css"
 </head>
@@ -19,12 +19,12 @@
                     if (!(isset($_COOKIE['patients']))) :
                         ?>
                         <form action="login.php/auth.php" method="post">
-                            <p class="main__title">Авторизация</p>
+                            <p class="main__title">Авторизация</p><br>
                             <input type="text" class="form-control" name="login" id="login" placeholder="Введите логин"><br>
 
                             <input type="password" class="form-control" name="password" id="password" placeholder="Введите пароль"><br>
 
-                            <input type="submit" value="Войти" class="main__btn">
+                            <input type="submit" value="Войти" class="main__btn"><br>
 
                             <a href="registration.html">Don't have an account?</a>
                         </form>
@@ -36,6 +36,19 @@
         </div>
     </div>
 </div>
+
+<footer class="Info">
+    <img class="Footer_logo" src="Contact%20Page/LOGO.png" alt="logo">
+    <img class="GPS" src="Contact%20Page/GPS.png" alt="GPS">
+    <h3 class="Address">Nur-Sultan</h3>
+    <h3 class="Address_info">Kabanbay Batyr Road</h3>
+    <img class="EMAIL" src="Contact%20Page/EMAIL.png" alt="email">
+    <h3 class="EMAIL_head">Email</h3>
+    <h3 class="EMAIL_INFO">201432@astanait.edu.kz</h3>
+    <img class="Iphone" src="Contact%20Page/Iphone.png" alt="iphone">
+    <h3 class="Iphone_head">Phone</h3>
+    <h3 class="Iphone_INFO">87784897006</h3>
+</footer>
 
 </body>
 </html>
