@@ -20,13 +20,13 @@
                     <form action="login.php/auth.php" method="post">
                         <p class="main__title">Авторизация</p><br>
 
-                        <input type="text" class="form-control" name="login" id="login" placeholder="Введите логин"><br>
+                        <input type="text" class="form-control" name="login" id="login" placeholder="Login"><br>
 
-                        <input type="password" class="form-control" name="password" id="password" placeholder="Введите пароль"><br>
+                        <input type="password" class="form-control" name="password" id="password" placeholder="Password"><br>
 
-                        <button type ="submit" class="main__btn">Войти</button><br>
+                        <button type ="submit" class="main__btn">Sign in</button><br>
 
-                        <a href="registration.html">Don't have an account?</a>
+                        <a href="registration.html" class="main__hyperlink">Don't have an account?</a>
                     </form>
                 <?php else:?>
                     <p>Привет <?= $_COOKIE['patients'] ?>.Чтобы выйти нажмите <a href="exit.php">здесь</a> </p>
