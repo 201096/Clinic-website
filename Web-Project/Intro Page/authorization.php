@@ -29,7 +29,7 @@
                         <a href="registration.html" class="main__hyperlink">Don't have an account?</a>
                     </form>
                 <?php else:?>
-                    <p>Привет <?= $_COOKIE['patients'] ?>.Чтобы выйти нажмите <a href="exit.php">здесь</a> </p>
+                    <p>Привет <?= $_COOKIE['patients'] ?>.Чтобы выйти нажмите <a href="login.php/exit.php">здесь</a> </p>
                 <?php endif; ?>
             </div>
         </div>
