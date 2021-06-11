@@ -17,7 +17,7 @@
                 <?php
                 if (!(isset($_COOKIE['patients']))) :
                     ?>
-                    <form action="login.php/auth.php" method="post">
+                    <form action="login.php/authorization.php" method="post">
                         <p class="main__title">Авторизация</p><br>
 
                         <input type="text" class="form-control" name="login" id="login" placeholder="Login"><br>

@@ -1,28 +1,51 @@
 <!DOCTYPE html>
-<html lang = "ru">
+<html lang = "en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Форма регистрации</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/registration.css">
 </head>
+
 <body>
-<div class="container mt-4">
-    <h1>Форма регистрации</h1>
-    <form action="login.php/create.php" method="post">
-        <input type="text" class="form-control" name="name" id="name" placeholder="Введите ваше имя"><br>
+<div class="main">
+    <div class="container">
+         <div class="main__content">
+             <div class="main__form">
+                 <form action="login.php/create.php" method="post">
+                     <p class="main__title">Форма регистрации</p><br>
 
-        <input type="date" class="form-control" name="date" id="date" placeholder="Введите дату рождение"><br>
+                     <input type="text" class="form-control" name="name" id="name" placeholder="Введите ваше имя"><br>
 
-        <input type="email" class="form-control" name="email" id="email" placeholder="Введите ваш email"><br>
+                     <input type="date" class="form-control" name="date" id="date" placeholder="Введите дату рождение"><br>
 
-        <input type="text" class="form-control" name="login" id="login" placeholder="Введите ваш логин"><br>
+                     <input type="email" class="form-control" name="email" id="email" placeholder="Введите ваш email"><br>
 
-        <input type="password" class="form-control" name="password" id="password" placeholder="Введите ваш пароль"><br>
+                     <input type="text" class="form-control" name="login" id="login" placeholder="Введите ваш логин"><br>
 
-        <button class="btn btn-success" type ="submit">Регистрация</button>
-    </form>
+                     <input type="password" class="form-control" name="password" id="password" placeholder="Введите ваш пароль"><br>
+
+                     <button class="main__btn" type ="submit">Регистрация</button>
+                 </form>
+             </div>
+         </div>
+    </div>
 </div>
+
+<footer class="Info">
+    <img class="Footer_logo" src="Contact%20Page/LOGO.png" alt="logo">
+    <img class="GPS" src="Contact%20Page/GPS.png" alt="GPS">
+    <h3 class="Address">Nur-Sultan</h3>
+    <h3 class="Address_info">Kabanbay Batyr Road</h3>
+    <img class="EMAIL" src="Contact%20Page/EMAIL.png" alt="email">
+    <h3 class="EMAIL_head">Email</h3>
+    <h3 class="EMAIL_INFO">201432@astanait.edu.kz</h3>
+    <img class="Iphone" src="Contact%20Page/Iphone.png" alt="iphone">
+    <h3 class="Iphone_head">Phone</h3>
+    <h3 class="Iphone_INFO">87784897006</h3>
+</footer>
+
 </body>
 </html>
