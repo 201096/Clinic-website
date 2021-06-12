@@ -10,40 +10,38 @@
 </head>
 
 <body>
-    <footer class="footer">
-        <div class="container">
-            <div class="footer__content">
-                <div class="footer__form">
-                    <form action="#">
-                        <p class="footer__title">Send message </p>
-                        <p class="footer__title2">to consult you</p>
-                        <input name="username" type="text" placeholder="FULLNAME">
-                        <input name="email" type="email" placeholder="EMAIL">
-                        <input name="password" type="text" placeholder="TYPE YOUR MESSAGE">
-                        <input name="submit" type="submit" value="SEND" class="footer__btn">
-                        <label>
-                            <input type="checkbox" name="rules" class="footer__check"><a class="footer__a">I agreed to
-                                the term of the <a href="#PrivacyPolicy" class="footer__aa"> Privacy Policy</a></a>
-                        </label>
-                    </form>
-                </div>
+<div class="main">
+    <div class="container">
+        <div class="main__content">
+            <div class="main__form">
+                <form action="login.php/contact.php" method="post">
+                    <p class="main__title">Send message </p>
+                    <p class="main__title2">to consult you</p>
+
+                    <input type="text" class="form-control" name="name" id="name" placeholder="Введите ваше имя">
+
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Введите вашу почту">
+
+                    <input type="text" class="form-control" name="message" id="message" placeholder="Ввдеите ваше сообщения">
+
+                    <button class="main__btn" type="submit">Send</button>
+                </form>
             </div>
         </div>
-    </footer>
-
-    <div class="Info">
-        <img class="Footer_logo" src="LOGO.png" alt="logo">
-        <img class="GPS" src="GPS.png" alt="GPS">
-        <h3 class="Address">Nur-Sultan</h3>
-        <h3 class="Address_info">Kabanbay Batyr Road</h3>
-        <img class="EMAIL" src="EMAIL.png" alt="email">
-        <h3 class="EMAIL_head">Email</h3>
-        <h3 class="EMAIL_INFO">201432@astanait.edu.kz</h3>
-        <img class="Iphone" src="Iphone.png" alt="iphone">
-        <h3 class="Iphone_head">Phone</h3>
-        <h3 class="Iphone_INFO">87784897006</h3>
     </div>
-    
-</body>
+</div>
 
+<footer class="Info">
+    <img class="Footer_logo" src="LOGO.png" alt="logo">
+    <img class="GPS" src="GPS.png" alt="GPS">
+    <h3 class="Address">Nur-Sultan</h3>
+    <h3 class="Address_info">Kabanbay Batyr Road</h3>
+    <img class="EMAIL" src="EMAIL.png" alt="email">
+    <h3 class="EMAIL_head">Email</h3>
+    <h3 class="EMAIL_INFO">201432@astanait.edu.kz</h3>
+    <img class="Iphone" src="Iphone.png" alt="iphone">
+    <h3 class="Iphone_head">Phone</h3>
+    <h3 class="Iphone_INFO">87784897006</h3>
+</footer>
+</body>
 </html>

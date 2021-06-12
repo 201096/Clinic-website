@@ -55,17 +55,6 @@ body{
     margin: 0px 0px 18px;
 }
 
-.main__form label{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 300;
-    font-size: 15px;
-    line-height: 100%;
-    letter-spacing: 0.01em;
-    color: #555555;
-}
-
 .main__title{
     padding: 0;
     font-weight: 600;
@@ -77,7 +66,7 @@ body{
 }
 
 .main__btn {
-    background-color: #4CAF50; /* Green */
+    background-color: #18d26e;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -85,10 +74,6 @@ body{
     text-decoration: none;
     display: inline-block;
     font-size: 32px;
-}
-
-.main__hyperlink{
-    text-decoration: none;
 }
 
 .Info{

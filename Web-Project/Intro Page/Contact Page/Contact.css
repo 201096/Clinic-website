@@ -12,13 +12,14 @@ body{
 	font-weight: 400;
 }
 
-.footer{
+.main{
 	background: url("Contacts-backg.png") center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100vh;
 }
-.footer__content{
+
+.main__content{
 	width: 100%;
 	height: 100vh;
 	display: flex;
@@ -26,14 +27,8 @@ body{
 	align-items: center;
 	padding: 100px 0px;
 }
-.footer__text{
-	width: 510px;
-	font-weight: 600;
-	font-size: 48px;
-	line-height: 58px;
-	color: #F7F7EE;
-}
-.footer__form{
+
+.main__form{
 	width: 596px;
 	margin-left: 36px;
 	background: #fff;
@@ -41,7 +36,8 @@ body{
 	box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.7);
 	border-radius: 27px;
 }
-.footer__form form{
+
+.main__form form{
 	width: 100%;
 	padding: 20px;
 	display: flex;
@@ -49,25 +45,8 @@ body{
 	align-items: center;
 	flex-direction: column;
 }
-.footer__title{
-	padding: 0;
-	font-weight: 600;
-	font-size: 35px;
-	line-height: 138.5%;
-	text-align: center;
-	letter-spacing: 0.01em;
-	color: #393939;
-}
-.footer__title2{
-	font-family: Gilroy;
-	font-size: 23px;
-	line-height: 138.5%;
-	text-align: center;
-	letter-spacing: 0.01em;
-	color: #393939;
-	padding-bottom: 20px;
-}
-.footer__form input{
+
+.main__form input{
 	width: 475.68px;
 	height: 86.49px;
 	border: 1px solid #18d26e;
@@ -76,46 +55,36 @@ body{
 	padding: 10px;
 	margin: 0px 0px 18px;
 }
-.footer__btn{
-	font-family: 'Gilroy';
-	font-weight: 700;
-	font-size: 26px;
-	line-height: 32px;
+
+.main__title{
+	padding: 0;
+	font-weight: 600;
+	font-size: 35px;
+	line-height: 138.5%;
 	text-align: center;
-	background-color: #18d26e !important;
-	color: #FFFFFF;
-	cursor: pointer;
-}
-.footer__form label{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	font-weight: 300;
-	font-size: 15px;
-	line-height: 100%;
 	letter-spacing: 0.01em;
-	color: #555555;
+	color: #393939;
 }
-.footer__check{
-	width: 15px !important;
-	height: 15px !important;
-	margin: 0 !important;
-	background: #393939;
+
+.main__title2{
+	font-family: Gilroy;
+	font-size: 23px;
+	line-height: 138.5%;
+	text-align: center;
+	letter-spacing: 0.01em;
+	color: #393939;
+	padding-bottom: 20px;
 }
-.footer__a{
-	margin-left: 10px;
-}
-.footer__aa{
-	margin-left: 5px;
+
+.main__btn {
+	background-color: #18d26e;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
 	text-decoration: none;
-}
-.footer__btn:hover{
-	background-color: #ffffff !important;
-    color: #18d26e;
-	transition: all 0.5s;
-}
-.footer__btn:focus{
-	background-color: #ffffff !important;
+	display: inline-block;
+	font-size: 32px;
 }
 
 .Info{
@@ -155,9 +124,9 @@ body{
 
 .EMAIL{
     position: absolute;
-    width:90px;
+    width: 90px;
     left: 750px;
-    top:785px;
+    top: 781px;
 }
 
 .EMAIL_head{
@@ -181,7 +150,7 @@ body{
     position: absolute;
     width:80px;
     left: 1130px;
-    top:795px;
+    top:787px;
 }
 
 .Iphone_head{
